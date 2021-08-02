@@ -34,6 +34,9 @@ body{
     border-radius: 3px;
 }
 
+
+/* MAIN */
+
 .main{
     height: 785px;
     background: url("../img/bg.jpg") center;
@@ -55,7 +58,6 @@ text-align: center;
     display: grid;
     justify-items: center;
 }
-
 
 
 .main span{
@@ -113,6 +115,8 @@ text-align: center;
     bottom: 0;
 }
 
+/* SECTION 1 */
+
 .section{
     background-color: black;
     padding: 4rem 0;
@@ -155,6 +159,9 @@ z-index: 1;
     left: 75px;
 }
 
+
+/* SECTION DOWNLOAD */
+
 .download{
     background-color: black;
     padding: 4rem 0;
@@ -179,6 +186,8 @@ z-index: 1;
 order:1;
 }
 
+/* SECTION DEVICES */
+
 .devices{
     background-color: black;
     padding: 4rem 0;
@@ -194,6 +203,16 @@ order:1;
 .devices p{
     font-size: 26px;
 }
+
+.devices .video-tv{
+     position:absolute;
+    width: 360px;
+    left: 100px;
+    top: 50px;
+}
+
+
+/* SECTION CHILDREN */
 
 .children{
     background-color: black;
@@ -217,4 +236,138 @@ order:1;
 
 .chieldren .img-tv{
 order:1;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+    padding: 4rem 0;
+    border-top: 8px solid #222;
+    border-bottom: 8px solid #222;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 500px 250px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+
+.footer input{
+    padding: 30px 10px;
+    font-size: 25px;
+    border-radius: 1px;
+    height: 20px;
+    width: 499px;
+}
+
+.footer button{
+    display: inline-block;
+    background-color: #e50914;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    padding: 24px;
+    text-transform: uppercase;
+    border-radius: 1px;
+}
+
+.footer button::after{
+    content:'' ;
+    display: inline-block;
+    width: 8px;
+    margin-left: 20px;
+    height: 19px;
+    background: url('../img/seta.svg');
+}
+
+.footer button:hover{
+    background-color: #f40612;
+}
+
+.grid-footer  h1{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+}
+
+.grid-footer  a{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    margin-top: 15px;
+    font-size: 25px;
+    margin-bottom: 20px
+}
+
+.grid-footer  a:hover{
+    text-shadow: 2px 2px 2px #e50914;
+}
+
+.obs{
+    display: flex;
+    background-color: black;
+    padding: 4rem 0;
+    border-top: 8px solid #222;
+    justify-content: center;
+    align-items: center;
+}
+
+.obs h1{
+    font-size: 19px;
+    max-width: 580px;
+}
+
+.obs button{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-color: #e50914;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 25px;
+    padding: 24px;
+    text-transform: uppercase;
+    border-radius: 1px;
+}
+
+.obs a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.obs button{
+    display: inline-block;
+    background-color: #e50914;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    padding: 24px;
+    text-transform: uppercase;
+    border-radius: 1px;
+}
+
+.obs button::after{
+    content:'' ;
+    display: inline-block;
+    width: 8px;
+    margin-left: 20px;
+    height: 19px;
+    background: url('../img/seta.svg');
+}
+
+.obs button:hover{
+    background-color: #f40612;
 }
