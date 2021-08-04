@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F0F2F5;
+}
+
+.logo{
+    display: block;
+    max-width:100%;
+    height: 106px;
+    margin: -28px;
+}
+
+h2{
+    font-size: 28px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+.container{
+    padding-top: 130px;
+    padding-bottom: 200px;
+    max-width: 980px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+form{
+display:grid;
+background-color:#fff;
+
+}
