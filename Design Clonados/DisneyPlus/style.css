@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "Avenir Roman";
+    src: url(img/avenir-roman.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: #040714; */
+}
+ 
+body{
+    margin-top: 30px;
+    color: #f9f9f9;
+    background: url('https://cannonball-cdn.bamgrid.com/assets/originals/5BrandsNew_Desktop_BPO_(1)-1.jpg') no-repeat top center;
+    background-size: cover;
+}
+
+.logo{
+    max-width: 180px;
+}
+
+.container-herois{
+    padding-left: 45px;
+    margin-top: 115px;
+
+    /* display: grid;
+    align-items: center;
+    justify-content: center; */
+}
+
+.franchise{
+    margin-top: 30px;
+    max-width: 600px;
+}
+
+.container-preços{
+    display: flex;
+    margin: 20px;
+    margin-left: 0;
+}
+
+.mensal{
+    width: 350px;
+    margin-right: 35px;
+}
+
+.mensal span{
+    font-size: 35px;
+    font-weight: 400;   
+}
+
+.mensal button{
+    width: 700px;
+    height: 60px;
+    margin-top: 50px;
+    background-color: #0063E5;
+    color: #f9f9f9;
+    border: 1px solid transparent;
+    letter-spacing: .8px;
+    font-size: 17px;
+    padding: 11.5px 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 4px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    font-weight: 400;   
+}
+
+.anual{
+    width: 250px;   
+}
+
+.anual span{
+    font-size: 35px;
+}
+
+.anual button{
+    width: 700px;
+    height: 60px;
+    margin-top: 8px;
+    background-color: #0063E5;
+    color: #f9f9f9;
+    border: 1px solid transparent;
+    letter-spacing: .8px;
+    font-size: 17px;
+    padding: 11.5px 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 4px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    font-weight: 400;
+}
+
+button{
+text-decoration: none;
+max-width: 324px;
+height: 50px;
+}
+
+
+h4{
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+
+h1{
+    font-family: "Avenir Roman", Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    max-width: 400px;
+    line-height: 50px;
+    color: #f9f9f9;
+}
+
