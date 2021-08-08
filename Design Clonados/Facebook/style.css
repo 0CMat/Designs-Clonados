@@ -77,7 +77,7 @@ input{
     margin-top: 5px;
     text-decoration: none;
     background-color: #1877F2;
-    color: #fff;
+    color: white;
     font-size: 20px;
     line-height: 8px;
     border-radius: 6px;
@@ -123,4 +123,66 @@ input{
 a{
     text-decoration: none;
     color: black;
+}
+
+.obs{
+    display: flex;
+    background-color: #F0F2F5;
+    padding: 4rem 0;
+    border-top: 8px solid rgb(228, 228, 228);
+    justify-content: center;
+    align-items: center;
+}
+
+.obs h1{
+    font-size: 19px;
+    max-width: 580px;
+}
+
+.obs button{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-color: #e50914;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 25px;
+    padding: 24px;
+    text-transform: uppercase;
+    border-radius: 1px;
+}
+
+.obs a{
+    color:#fff;
+}
+
+.github{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.github :hover{
+    color: #1877F2;
+}
+
+
+.obs button{
+    display: inline-block;
+    background-color: #1877F2;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    padding: 24px;
+    text-transform: uppercase;
+    border-radius: 1px;
+}
+
+.obs button:hover{
+    background-color: #3784e9;
 }
