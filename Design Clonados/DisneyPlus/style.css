@@ -13,7 +13,8 @@ body{
     margin-top: 30px;
     color: #f9f9f9;
     background: url('https://cannonball-cdn.bamgrid.com/assets/originals/5BrandsNew_Desktop_BPO_(1)-1.jpg') no-repeat top center;
-    background-size: cover;
+    background-size: 100%;
+    background-color: #040714;
 }
 
 .logo{
@@ -23,11 +24,13 @@ body{
 .container-herois{
     padding-left: 45px;
     margin-top: 115px;
+    margin-bottom: 100px;
 
     /* display: grid;
     align-items: center;
     justify-content: center; */
 }
+
 
 .franchise{
     margin-top: 30px;
@@ -107,10 +110,103 @@ h4{
 }
 
 h1{
-    font-family: "Avenir Roman", Arial, Helvetica, sans-serif;
+    font-family: "Avenir Roman", sans-serif;
     font-size: 40px;
     max-width: 400px;
     line-height: 50px;
     color: #f9f9f9;
+}
+
+
+.container-premier{
+    background-color: #040714;
+    display:flex;
+    margin-bottom: 50px;
+}
+
+.img-premier{
+    margin-top: 100px;
+    margin-left: 35px;
+
+}
+
+.descricao-premier{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 35px;
+}
+
+.img-premier img{
+    max-height: 383px;
+}
+
+.descricao-premier h1{
+    font-size: 35px;
+}
+
+.descricao-premier p{
+    font-size: 18px;
+    color: hsla(0,0%,75.3%,.8);
+}
+
+.descricao-premier a{
+    color: #f9f9f9;
+}
+
+
+.descricao-premier button{
+    width: 700px;
+    height: 60px;
+    margin-top: 135px;
+    background-color: #0063E5;
+    color: #f9f9f9;
+    border: 1px solid transparent;
+    letter-spacing: .8px;
+    font-size: 17px;
+    padding: 11.5px 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 4px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    font-weight: 400;   
+}
+
+.container-devices{
+    background-color: #040714;
+    display:flex;
+    margin-bottom: 50px;
+}
+
+.img-devices{
+    margin-top: 100px;
+    margin-left: 35px;
+
+}
+
+.descricao-devices{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 180px;
+    margin-left: 35px;
+}
+
+.img-devices img{
+    max-height: 383px;
+    margin-left: 80px;
+}
+
+.descricao-devices h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.descricao-devices p{
+    font-size: 18px;
+    max-width: 400px;
+    color: hsla(0,0%,75.3%,.8);
 }
 
