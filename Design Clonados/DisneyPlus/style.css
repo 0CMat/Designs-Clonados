@@ -210,3 +210,39 @@ h1{
     color: hsla(0,0%,75.3%,.8);
 }
 
+.container-exclusives{
+    background-color: #040714;
+    display:inline;
+    margin-bottom: 50px;
+}
+
+.img-exclusives{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.descricao-exclusives{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 180px;
+    margin-left: 35px;
+}
+
+.img-exclusives img{
+    max-height: 200px;
+    margin-left: 80px;
+}
+
+.descricao-exclusives h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.descricao-exclusives p{
+    font-size: 18px;
+    max-width: 400px;
+    color: hsla(0,0%,75.3%,.8);
+}
+
