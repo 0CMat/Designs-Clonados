@@ -177,13 +177,12 @@ h1{
 .container-devices{
     background-color: #040714;
     display:flex;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .img-devices{
     margin-top: 100px;
-    margin-left: 35px;
-
+    margin-left: 75px;
 }
 
 .descricao-devices{
@@ -195,39 +194,34 @@ h1{
 }
 
 .img-devices img{
-    max-height: 383px;
-    margin-left: 80px;
+    max-height: 403px;
+    margin-left: 30px;
 }
 
 .descricao-devices h1{
-    font-size: 35px;
+    font-size: 40px;
     margin-bottom: 20px;
 }
 
 .descricao-devices p{
-    font-size: 18px;
+    font-size: 19px;
     max-width: 400px;
     color: hsla(0,0%,75.3%,.8);
 }
 
 .container-exclusives{
     background-color: #040714;
-    display:inline;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .img-exclusives{
     display: grid;
-    align-items: center;
-    justify-content: center;
 }
 
 .descricao-exclusives{
-    display: inline-block;
+    display: grid;
     align-items: center;
     justify-content: center;
-    margin-top: 180px;
-    margin-left: 35px;
 }
 
 .img-exclusives img{
@@ -242,7 +236,6 @@ h1{
 
 .descricao-exclusives p{
     font-size: 18px;
-    max-width: 400px;
     color: hsla(0,0%,75.3%,.8);
 }
 
