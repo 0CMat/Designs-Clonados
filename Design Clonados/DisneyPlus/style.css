@@ -212,26 +212,30 @@ h1{
 .container-exclusives{
     background-color: #040714;
     margin-bottom: 100px;
+    margin-left: 12px;
 }
 
 .img-exclusives{
-    display: grid;
+    display: inline;
 }
 
 .descricao-exclusives{
     display: grid;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .img-exclusives img{
-    max-height: 200px;
-    margin-left: 80px;
+    max-width: 320px;
+    margin: 12px;
+    border-radius: 4px;
 }
 
 .descricao-exclusives h1{
     font-size: 35px;
-    margin-bottom: 20px;
+    max-width: 600px;
+    justify-content: center;
 }
 
 .descricao-exclusives p{
@@ -239,3 +243,85 @@ h1{
     color: hsla(0,0%,75.3%,.8);
 }
 
+.container-exclusives button{
+    width: 700px;
+    height: 60px;
+    margin-top: 150px;
+    margin-left: 355px;
+    background-color: #0063E5;
+    color: #f9f9f9;
+    border: 1px solid transparent;
+    letter-spacing: .8px;
+    font-size: 17px;
+    padding: 11.5px 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 4px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    font-weight: 400;
+}
+
+.container-download{
+    background-color: #040714;
+    margin: 24px;
+    display: inline-block;
+    position: relative;
+}
+
+.container-download h1{
+    font-size: 33px;
+    position: absolute;
+    top: 170px;
+    margin-left: 500px;
+}
+
+.container-download p{
+    font-size: 23px;
+    position: absolute;
+    top: 230px;
+    margin-left: 500px;
+    width: 510px;
+    color: hsla(0,0%,75.3%,.8);
+}
+
+.container-download img{
+    max-width: 1020px;
+}
+
+
+
+.container-diversao{
+    background-color: #040714;
+    margin-bottom: 100px;
+    margin-left: 12px;
+}
+
+.img-diversao{
+    display: inline;
+}
+
+.descricao-diversao{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.img-diversao img{
+    max-width: 320px;
+    margin: 12px;
+    border-radius: 4px;
+}
+
+.descricao-diversao h1{
+    font-size: 35px;
+    max-width: 350px;
+    margin-left: 265px;
+}
+
+.descricao-diversao p{
+    font-size: 18px;
+    max-width: 900px;
+    color: hsla(0,0%,75.3%,.8);
+}
