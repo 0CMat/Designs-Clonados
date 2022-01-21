@@ -63,11 +63,37 @@ section .about{
 
 .social-media{
     position: absolute;
+    right: 410px;
+    top: 170px;
 }
 
 .social-media img{
     display: block;
-    height: 30px;
-    top: 40px;
-    right: 500px;
+    width: 20px;
+    margin: 18px 0;
+}
+
+.about h1{
+    font-size: 55px;
+    margin-left: 80px;
+    margin-top:  120px;
+}
+
+.about  p{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 80px;
+    width: 435px;
+}
+
+.leia-mais{
+    color: aliceblue;
+    background-color: #007143;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 8px;
+    margin-top: 10px;
+    margin-left: 80px;
+    border-radius: 20px;
 }
