@@ -19,6 +19,15 @@ html, body{
     justify-items: center;
     align-items: center;
 }
+/*  FALTA IMPLEMENTAR
+.slideshow{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 23px;
+    width: 237px;
+    height: 423px;
+
+} */
 
 .logon{
     height: 500px;
@@ -199,4 +208,26 @@ html, body{
 .iphone-modelo{
     height: 600px;
     width: 390px;
+}
+
+.footer{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.footer a:hover{
+    color: #0095F6;
+}
+
+.footer h1{
+    display: inline-block;
+    justify-items: center;
+    font-size: 16px;
+    width: 400px;
 }
