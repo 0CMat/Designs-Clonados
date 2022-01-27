@@ -1,11 +1,9 @@
-*{
+html, body{
     margin: 0;
     padding: 0;
-}
-
-body{
     font-family: sans-serif;
     color: white;
+    overflow-x: hidden;
 }
 
 .container{
@@ -16,7 +14,7 @@ body{
 .header {
     position: absolute;
     z-index: 100;
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     max-width: 1500px;
@@ -371,3 +369,4 @@ footer{
 .obs button:hover{
     background-color: #f40612;
 }
+
