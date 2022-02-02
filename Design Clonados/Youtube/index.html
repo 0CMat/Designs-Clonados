@@ -6,13 +6,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/YouTube_Icone.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Youtube</title>
 </head>
 <body>
-    <ul>
-    <header class="header"> <!-- header -->
+    <header class="header"><!-- header -->
+        <button class="toggle">
+            <hr><hr><hr>
+        </button>
         <a href="#"><img class="logo" src="assets/logo.png" alt="logo"></a>
-
+        
+        <form class="search" action="action_page.php">
+            <input class="input-search" type="text" placeholder="Pesquisar" name="search" style="font-size: larger;">
+            <button class="button-search" type="submit"><i class="fa fa-search" style="font-size: large;"></i></button>
+            <img class="micro" src="assets/microphone-solid.svg" alt="micro" style="height:20px;">
+        </form>
+        <div class="opc">
+            <img src="assets/upload.png" alt="upload"style="height: 25px;">
+            <img src="assets/apps.svg" alt="plataformas" style="height: 20px;">
+            <img src="assets/bell.svg" alt="sino" style="height: 25px;">
+            <img src="assets/user-profile-svgrepo-com.svg" alt="perfil" style="height: 32px;">
+        </div>
     </header><!-- header -->
+    <hr class="hr-tags"><!-- tags -->
+    <div class="tags">
+        <a  href="#" 
+        style="  text-decoration: none;
+        color: white;
+        background-color: black;
+        padding: 5px 10px;
+        border-radius: 20px;">Tudo</a>
+        <a href="#">Músicas</a>
+        <a href="#">Futebol</a>
+        <a href="#">Ao Vivo</a>
+        <a href="#">Filmes</a>
+        <a href="#">Series</a>
+        <a href="#">Documentários</a>
+        <a href="#">Jogos</a>
+        <a href="#">Notícias</a>
+        <a href="#">Economia</a>
+        <a href="#">Tecnologia</a>
+        <a href="#">Programação</a>
+        <a href="#">Front-End</a>
+        <a href="#">HTML5</a>
+        <a href="#">CSS3</a>
+        <!-- <a href="#">Javascript</a>
+        <a href="#">Projetos</a> -->
+    </div>
+    <hr class="hr-tags"><!-- tags -->
+    <div class="grid-videos"><!-- grid-videos -->
+        <div class="video"><!-- videos -->
+            <div class="thumb" src="" alt="thumb"></div>
+            <div class="info-video">
+                <img src="" alt="perfil-canal">
+                <a href="#">
+                    <h1>Título</h1>
+                    <h3>Nome Canal</h3>
+                    <h4>12 mil visualizações - há 2 horas</h4>
+                </a>
+            </div><!-- info-video -->
+
+        </div><!-- videos -->
+    </div><!-- grid-videos -->
 </body>
 </html>

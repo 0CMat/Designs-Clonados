@@ -6,29 +6,119 @@ html, body{
     font-family: 'Roboto', sans-serif;
 }
 
+/* Navbar */
+
 .header{
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
-ul {
-    font-size: 27px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 15%;
-    height: 100%;
-    background-color: #f1f1f1;
-  }
-  
-  li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
+
+.toggle{
+  text-decoration: none;
+  background-color: white;
+  border: none;
+  margin-right: 2rem;
+  margin-left: 15px;
+  padding: 14px 15px;
+}
+
+hr{
+  width: 20px;
+}
+
+
+.logo{
+  width: 100px;
+  height: 50px;
+  margin-right: 5em;
+  margin-top: 5px;
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-search{
+  height: 30px;
+  width: 600px;
+}
+
+.button-search{
+  background-color:white;
+  height: 35px;
+  width: 70px;
+}
+
+.opc{
+  display: flex;
+  align-items: center;
+
+
+}
+
+.opc img{
+  margin-right: 30px;
+}
+
+.micro{
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(248, 245, 245);
+  padding: 12px 14px;
+  border-radius: 80px;
+  margin-left: 10px;
+  margin-right: 8em;
+}
+
+/* Tags */
+
+.hr-tags{
+  width: 100%;
+  color: rgba(255, 255, 255, 0.068);
+}
+
+.tags{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 15px 15px;
+}
+
+.tags a{
     text-decoration: none;
-  }
-  
-  /* Change the link color on hover */
-  li a:hover {
-    background-color: #555;
-    color: white;
-  }
+    color: black;
+    background-color: rgb(248, 245, 245);
+    padding: 5px 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.156);
+}
+
+/* Grid VIdeos */
+
+.grid-videos{
+  display: grid;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.video{
+  background-color: gray;
+  height: 250px;
+  width: 350px;
+}
+
+.thumb{
+  background-color: aquamarine;
+  width: 350px;
+  height: 170px;
+}
+
+.info-video{
+  display: inline;
+}
