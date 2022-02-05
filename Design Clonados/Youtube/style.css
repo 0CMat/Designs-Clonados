@@ -32,7 +32,7 @@ hr{
 
 .logo{
   width: 100px;
-  height: 50px;
+  height: 25px;
   margin-right: 5em;
   margin-top: 5px;
 }
@@ -76,6 +76,31 @@ hr{
   margin-right: 8em;
 }
 
+/* Sections */
+
+.sections{
+  display: flex;
+}
+
+  /* Bar-left */
+  .section-left{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 80px;
+    margin-top: 10px;
+  }
+
+  .section-left a{
+    padding: 20px;
+    display: grid;
+    justify-items: center;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+  }
+
 /* Tags */
 
 .hr-tags{
@@ -102,23 +127,58 @@ hr{
 /* Grid VIdeos */
 
 .grid-videos{
-  display: grid;
+  display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-left: 15px;
 }
 
 .video{
-  background-color: gray;
-  height: 250px;
-  width: 350px;
+  background-color: white;
+  height: 300px;
+  width: 300px;
+  margin: 10px;
 }
 
 .thumb{
   background-color: aquamarine;
-  width: 350px;
+  width: 300px;
+  height: 170px;
+}
+
+.thumb img{
+  width: 300px;
   height: 170px;
 }
 
 .info-video{
-  display: inline;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.info-video h1{
+  font-size: 20px;
+  color: black;
+  margin-top: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.image-perfil{
+  height: 30px;
+  border-radius: 30px;
+  margin-right: 7px;
+}
+
+.video-stats{
+  line-height: 3px;
+  margin-left: 45px;
+}
+
+.video-stats h3,h4{
+  font-size: 14px;
+  color: #606060;
 }
